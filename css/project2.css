@@ -1,0 +1,322 @@
+.navbar {
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+}
+
+.navbar-brand {
+    font-family: 'Lobster Two', cursive;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+}
+.navbar-nav a:hover {
+    color: #ffc107 !important;
+}
+
+/* header */
+.header {
+    height: 100vh;
+    background-image: url(../imgs/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    position: relative;
+}
+
+.header .container {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header h3 {
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+.header h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+
+@media(max-width: 480px) {
+.header h3{
+    font-style: oblique;
+    font-size: medium;
+}
+.header h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+}
+
+@media(min-width: 480px) {
+   .header h3{
+    font-style: oblique;
+    font-size: large;
+}
+.header h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+}
+
+@media(min-width: 600px) {
+    .header h3{
+    font-style: oblique;
+    font-size: larger;
+}
+.header h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+}
+
+@media(min-width: 768px) {
+    .header h3{
+    font-style: oblique;
+    font-size: x-large;
+}
+.header h1{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+}
+
+@media(min-width: 1200px) {
+   .header h3{
+    font-style: oblique;
+    font-size: xx-large;
+}
+.header h1{
+    font-size: 90px;
+    text-transform: uppercase;
+}
+}
+/*services*/
+.services{
+    text-align: center;
+    margin: 14vh 0px;
+}
+.services h2{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+.mainp{
+    color: gray;
+    font-size: larger;
+    font-style: oblique;
+}
+.iconn{
+    width: 35%;
+    height: 120px;
+    margin: 40px 0px 20px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 65%;
+}
+.iconn i{
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 60px;
+}
+.services h3{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.services p{
+    color: grey;
+}
+.col-12 ,.col-sm-12 ,.col-md-4 ,.col-lg-4
+.col-md-4 ,.col-lg-4{
+    padding: 25px;
+    font-weight:500;
+    line-height: 1.5;
+}
+/*portfolio*/
+.portfolio{
+    text-align: center;
+    margin: 15vh 0px;
+    padding: 20px;
+    background-color:rgb(245, 248, 250)
+}
+.portfolio h2{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 2vh;
+    margin-top: 8vh;
+}
+
+
+.portfolio h3{
+    margin: 30px 0px 10px;
+    font-weight: bold;
+}
+.portfolio p{
+    color: grey;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+.col-12 img,.col-sm-12 img,
+.col-md-6 img,.col-lg-4 img{
+    width: 100%;
+}
+.col-12 ,.col-sm-12 ,.col-md-6 ,.col-lg-4{
+    padding: 25px;
+    font-weight:500;
+    line-height: 1.5;
+}
+
+/*about*/
+.about{
+    text-align: center;
+    margin: 15vh 0px;
+}
+.about h2{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.about p{
+    margin-bottom: 8vh;
+}
+
+.card{
+    border: none;
+
+}
+
+.card .row:not(#right .card .row){
+    text-align: end;
+    border-right: 3px solid rgba(0,0,0,.125);
+    
+}
+.rounded-circle:not(#right .rounded-circle , .team img){
+    width: 120%;
+    border: 7px solid rgba(0,0,0,.125);
+    position: relative;
+    left: 4.5vw;
+}
+#right{
+    display: flex;
+    justify-content: right;
+}
+#right .card .row{
+    border-left: 3px solid rgba(0,0,0,.125);
+    text-align: start;
+    position: relative;
+    right: 39px;
+      
+}
+#right .rounded-circle{
+    width: 120%;
+    border: 7px solid rgba(0,0,0,.125);
+    position: relative;
+    right: 6vw;
+    
+}
+
+/*team*/
+.team{
+    text-align: center;
+    margin: 25vh 0px 5vh;
+    padding: 20px;
+    background-color:rgb(245, 248, 250)
+}
+.team h2{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 2vh;
+    margin-top: 8vh;
+}
+.team .container{
+    margin-top: 5vh;
+}
+.team p{
+    color: grey;
+    margin-bottom: 3vh ;
+}
+.team img{
+    width: 65%;
+    margin-bottom: 1vh;
+    border: 7px solid rgba(0,0,0,.125);  
+}
+
+.ic i{
+    font-size: 30px;
+    padding: 5px;
+}
+
+/*logo*/
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 60%;
+    height: 6.5vh;
+}
+/* contact*/
+.contact{
+    text-align: center;
+    margin: 25vh 0px 0px;
+    padding: 20px;
+    background-image: url(../imgs/14.jpg) !important;
+    
+}
+.contact h2{
+    text-transform:uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 2vh;
+    margin-top: 10vh;
+}
+.contact .container{
+    margin-top: 8vh;
+}
+.contact p{
+    color: grey;
+    margin-bottom: 3vh ;
+}
+form .form-control{
+    padding: 20px;
+    height: 100%;
+    font-weight: 500;
+}
+#btt{
+    margin: 25px 0px;
+    padding: 17px 45px;
+    color: aliceblue;
+    opacity: .7;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8vh;
+}
+/*footer*/
+
+.footer .container{
+    text-align: center;
+    font-weight: 400;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer .container .row-col-12{
+padding: 0%;
+}
